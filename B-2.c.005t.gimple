@@ -1,0 +1,25 @@
+main ()
+{
+  int D.1507;
+
+  {
+    int i;
+    int a;
+
+    a = 10;
+    i = 0;
+    goto <D.1504>;
+    <D.1503>:
+    a = a + 1;
+    i = i + 1;
+    <D.1504>:
+    if (i <= 3) goto <D.1503>; else goto <D.1505>;
+    <D.1505>:
+    D.1507 = a;
+    return D.1507;
+  }
+  D.1507 = 0;
+  return D.1507;
+}
+
+
